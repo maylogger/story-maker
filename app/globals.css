@@ -4,8 +4,7 @@
 
 @layer utilities {
   .date {
-    float: left;
-    position: relative;
+    @apply relative float-left;
   }
   .date::before {
     content: '';
