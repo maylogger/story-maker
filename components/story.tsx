@@ -11,7 +11,7 @@ const Story = ({
 }) => {
   return (
     <div className={`space-y-5 sm:space-y-0 ${className}`}>
-      {time && <time className='sm:float-left sm:clear-both'>{time}</time>}
+      {time && <time className='time sm:float-left sm:clear-both'>{time}</time>}
       <div className='sm: ml-[200px]'>{children}</div>
     </div>
   )
